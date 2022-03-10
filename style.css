@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: red; */
+}
+body {
+    background-color: white;
+    color: black;
+
+    
+  }
+  #btn{
+      color: rgb(233, 230, 230);
+      background-color: rgb(3, 0, 0);
+      border: 3px solid rgb(69, 110, 86);
+      border-radius: 10px;
+      cursor: pointer;
+      float: right;
+      margin-right: 25px;
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+  }
+  
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+    
+  }
+
+header{
+    background-image:linear-gradient(rgba(190, 37, 37, 0.3),rgba(0,0,0,0.1));
+}
+ /* home */
+h1{
+    text-align: center;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+p{
+    text-align: center;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+#time{
+    font-weight: bold;
+}
+.sidebar{ 
+    background-color: rgb(211, 52, 52);
+    cursor: pointer;
+    width: 111px;
+    height: 69.5vh;
+    padding: 35px;
+    font-family: 'Hind Siliguri', sans-serif;
+    /* transition:all 1s ease-in 2s; */
+}
+/* .sidebar :hover{
+    float: left;
+} */
+.lol ul li{
+    list-style: none;
+    padding: 23px;
+    /* text-decoration: none; */
+
+}
+
+.lol ul li a:hover{
+    color: #c8f30b;
+    cursor: pointer;
+}
+.lol ul li a{
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.main{
+    /* background-color: royalblue; */
+    width: 250vh;
+}
+.info{
+    justify-content: space-around;
+    /* background-color: salmon; */
+    display: flex;
+    margin: 157px 0px 0px 96px;
+    
+}
+.name{
+    width: 0ch;
+    /* overflow: hidden; */
+    white-space: nowrap;
+    animation: text 6s step(17) infinite alternate;
+    border-right: 3px solid black;
+}
+@keyframes text{
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width: 18ch;
+    }
+}
+div.info{
+    display: flex;
+    flex-direction: column;
+}
+.divpic img{
+    height: 67vh;
+    width: 368px;
+    float: right;
+    padding-right: 25px;
+    margin-top: 47px;
+    border-radius: 50%;
+    padding-bottom: 6px;
+    margin-bottom: 6px;
+}
+.hello{
+    padding: 15px;
+}
+.name{
+    padding: 15px;
+}
+.about{
+    padding: 15px;
+}
+#submit{
+    cursor: pointer;
+    border-radius: 14px;
+    width: 88px;
+    height: 27px;
+    margin-right: 19px;
+}
+#submit:hover{
+    background-color: rgb(203, 171, 230);
+}
+#reset{
+    cursor: pointer;
+    border-radius: 14px;
+    width: 88px;
+    height: 27px;
+}
+#reset:hover{
+    background-color: rgb(203, 171, 230);
+}
+/* contact us */
+#name{
+    border-radius: 6px;
+    width: 250px;
+}
+#role{
+    border-radius: 6px;
+    width: 250px;
+}
+#email{
+    border-radius: 6px;
+    width: 250px;
+}
+#dob{
+    border-radius: 6px;
+    width: 250px;
+}
+#p{
+    font-size: 11px;
+    margin-right: 95vh;
+}
+.infos{
+    margin-left: 50vh;
+    padding-bottom: 103px;
+}
+h2{
+    padding-bottom: 50px;
+    padding-top: 25px;
+}
+#imgc{
+    width: 48vh;
+    height: 30vh;
+    margin-left: 30vh;
+    float: right;
+    padding-right: 90px;
+}
+#imgx{
+    /* float: right; */
+    padding-left: 347px;
+}
+/* blogs  */
+.infoss{
+    margin-left: 20vh;
+    margin-top: 9vh;
+    margin-right: 20vh;
+}
+#myDIV {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
+  }
+  #more1 {
+      display: none;
+    }
+    #myBtn1{
+        border-radius: 8px;
+        width: 86px;
+    }
+    #myBtn1:hover{
+        background-color: rgb(150, 245, 158);
+        cursor: pointer;
+    }
+  #more2 {
+      display: none;
+    }
+    #myBtn2{
+        border-radius: 8px;
+        width: 86px;
+    }
+    #myBtn2:hover{
+        background-color: rgb(150, 245, 158);
+        cursor: pointer;
+    }
+  #more3 {
+      display: none;
+    }
+    #myBtn3{
+        border-radius: 8px;
+        width: 86px;
+    }
+    #myBtn3:hover{
+        background-color: rgb(150, 245, 158);
+        cursor: pointer;
+    }
+  #more4 {
+      display: none;
+    }
+    #myBtn4{
+        border-radius: 8px;
+        width: 86px;
+    }
+    #myBtn4:hover{
+        background-color: rgb(150, 245, 158);
+        cursor: pointer;
+    }
+  #more5 {
+      display: none;
+    }
+    #myBtn5{
+        border-radius: 8px;
+        width: 86px;
+    }
+    #myBtn5:hover{
+        background-color: rgb(150, 245, 158);
+        cursor: pointer;
+    }
+    
+/* galary */
+#box1 img{
+    width: 12vh;
+    padding: 20px;
+    margin: 20px;
+}
+.infoes #box1 :hover{
+    width: 85px;
+    height: 85px;
+   cursor: pointer;
+}
+#box2 img{
+    width: 12vh;
+    padding: 20px;
+    margin: 20px;
+}
+.infoes #box2 :hover{
+    width: 85px;
+    height: 85px;
+   cursor: pointer;
+}
+#box3 img{
+    width: 12vh;
+    padding: 20px;
+    margin: 20px;
+}
+.infoes #box3 :hover{
+    width: 85px;
+    height: 85px;
+   cursor: pointer;
+}
+#box5 img{
+    width: 12vh;
+    padding: 20px;
+    margin: 20px;
+}.infoes #box5 :hover{
+    width: 85px;
+    height: 160px;
+   cursor: pointer;
+}
+#box6 img{
+    width: 12vh;
+    padding: 20px;
+    margin: 20px;
+}
+.infoes #box6 :hover{
+    width: 95px;
+    height: 85px;
+   cursor: pointer;
+}
+#box7 img{
+    width: 12vh;
+    padding: 20px;
+    margin: 20px;
+}
+.infoes #box7 :hover{
+    width: 85px;
+    height: 160px;
+   cursor: pointer;
+}
+#box8 img{
+    width: 12vh;
+    padding: 20px;
+    margin: 20px;
+}
+.infoes #box8 :hover{
+    width: 85px;
+    height: 85px;
+   cursor: pointer;
+}
+#box10 img{
+    width: 12vh;
+    padding: 20px;
+    margin: 20px;
+} .infoes #box10 :hover{
+    width: 85px;
+    height: 85px;
+   cursor: pointer;
+}
+/* #box9 img{
+    width: 10vh;
+}
+/* #box11 img{
+    width: 10vh;
+}
+#box12 img{
+    width: 10vh;
+}
+#box13 img{
+    width: 10vh;
+}  */
+/* #box4 img{
+    width: 10vh;
+    padding: 20px;
+    margin: 20px;
+} */
+.infoes{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    border: 4px solid black;
+    width: 177vh;
+}
+.mains h2{
+    margin-left: 77px;
+}
+
+/* about */
+.infoas{
+    margin-left: 20vh;
+    margin-top: 9vh;
+    margin-right: 20vh;
+}
+ #kol1{
+    border: 5px solid;
+    padding: 10px;
+    margin: 10px;
+}
+ #kol2{
+    border: 5px solid;
+    padding: 10px;
+    margin: 10px;
+}
+ #kol3{
+    border: 5px solid;
+    padding: 10px;
+    margin: 10px;
+}
+ #kol4{
+    border: 5px solid;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* footer */
+.lol img{
+    width: 25px;
+    height: 25px;
+    float: right;
+    margin-inline: 10px;
+}
+
+.lol{
+    position: relative;
+    padding-top: 12px;
+}
+.lol p{
+    background-color: rgb(54, 44, 44);
+    color:#ffff;
+    height: 30px;
+    padding-top: 18px;
+ 
+}
+
